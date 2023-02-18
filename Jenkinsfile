@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g-- ./main/PES1UG20CS912.cpp'
+        sh 'g-- ./master/PES2UG20CS912.cpp'
         echo 'Build Stage Successful'
       }
     }
